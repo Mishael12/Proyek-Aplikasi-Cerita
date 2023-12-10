@@ -1,4 +1,4 @@
-Kelompok 2 dengan Anggota :
+Kelompok 10 dengan Anggota :
 - Mishael Ardhyta Widyatama          (215150201111053)
 - Muhammad Ammar                     (215150201111032)
 - Achmad Sulaiman                    (215150201111029)
