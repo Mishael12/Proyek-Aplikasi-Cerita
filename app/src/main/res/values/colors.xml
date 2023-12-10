@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightgrey">#615E5E</color>
+    <color name="gold">#EAEBBC</color>
+    <color name="gold1">#E1D362</color>
+    <color name="grey">#000000</color>
+    <color name="blckbtn">#252525</color>
+    <color name="txtgold">#CFB800</color>
+    <color name="grey2">#ECECEC</color>
+    <color name="edit">#171F1D</color>
+    <color name="preference">#F6F6F6</color>
+    <color name="editprofile">#A9A9A9</color>
+    <color name="genre">#F2F1E9</color>
+</resources>

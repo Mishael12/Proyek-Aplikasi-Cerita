@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/create">
+
+    <fragment
+        android:id="@+id/create"
+        android:name="com.example.myapplication.Main.create"
+        android:label="create"
+        tools:layout="@layout/create" >
+        <action
+            android:id="@+id/action_create_to_create2"
+            app:destination="@id/create2" />
+        <action
+            android:id="@+id/action_create_to_create3"
+            app:destination="@id/create3" />
+        <argument
+            android:name="Judul"
+            app:argType="string" />
+        <argument
+            android:name="Decs"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/create2"
+        android:name="com.example.myapplication.Main.create2"
+        android:label="create2" >
+        <action
+            android:id="@+id/action_create2_to_create33"
+            app:destination="@id/create3" />
+        <action
+            android:id="@+id/action_create2_to_create4"
+            app:destination="@id/create" />
+        <argument
+            android:name="Judul"
+            app:argType="string" />
+        <argument
+            android:name="Decs"
+            app:argType="string" />
+        <argument
+            android:name="Genre"
+            app:argType="string" />
+        <argument
+            android:name="Url"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/create3"
+        android:name="com.example.myapplication.Main.create3"
+        android:label="create3" >
+        <action
+            android:id="@+id/action_create3_to_create22"
+            app:destination="@id/create2" />
+        <argument
+            android:name="Judul"
+            app:argType="string" />
+        <argument
+            android:name="Decs"
+            app:argType="string" />
+        <argument
+            android:name="Cerita"
+            app:argType="string" />
+        <argument
+            android:name="Genre"
+            app:argType="string" />
+        <argument
+            android:name="Isrestricted"
+            app:argType="integer" />
+        <argument
+            android:name="Url"
+            app:argType="string" />
+    </fragment>
+</navigation>
